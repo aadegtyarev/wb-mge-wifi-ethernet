@@ -1,0 +1,6 @@
+dependencies:
+  dns_server:
+    path: ${IDF_PATH}/examples/protocols/http_server/captive_portal/components/dns_server
+  ethernet_init:
+    path: ${IDF_PATH}/examples/ethernet/basic/components/ethernet_init
+  idf: ">=5.5.2,<5.6"

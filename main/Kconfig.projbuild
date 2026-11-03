@@ -1,0 +1,6 @@
+menu "WB-MGE bridge"
+    config EXAMPLE_RECONFIGURE_BUTTON
+        int "Config button GPIO"
+        range 0 39
+        default 34
+endmenu
